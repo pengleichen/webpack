@@ -1,0 +1,25 @@
+{
+  "name": "progressive-web-application",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start": "http-server dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "clean-webpack-plugin": "^0.1.19",
+    "html-webpack-plugin": "^3.2.0",
+    "http-server": "^0.11.1",
+    "webpack": "^4.17.1",
+    "webpack-cli": "^3.1.0",
+    "workbox-webpack-plugin": "^3.4.1"
+  },
+  "dependencies": {
+    "lodash": "^4.17.10"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "@pengleichen/webpack-numbers",
+  "version": "1.0.4",
+  "description": "webpack numbers",
+  "main": "dist/webpack-numbers.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "keywords": [
+    "webpack numbers",
+    "webpack",
+    "numbers"
+  ],
+  "author": "pengleichen",
+  "license": "ISC",
+  "devDependencies": {
+    "lodash": "^4.17.10",
+    "webpack": "^4.17.1",
+    "webpack-cli": "^3.1.0"
+  }
+}
